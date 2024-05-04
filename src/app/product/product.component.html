@@ -1,0 +1,14 @@
+<div class="color-container">
+  <h1>შეიყვანეთ ფერი</h1>
+  <input type="text" [(ngModel)]="colorValue" />
+  <button (click)="addColor()">შეყვანა</button>
+  <button (click)="clearArray()">წაშლა</button>
+  <div *ngFor="let color of colorArray">
+    <div>
+      <h1>
+        შენი არჩეული ფერია
+        <span [style.background-color]="color">{{ color }}</span>
+      </h1>
+    </div>
+  </div>
+</div>

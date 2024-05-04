@@ -1,0 +1,32 @@
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.color-container {
+  margin-top: 50px;
+  height: 400px;
+  text-align: center;
+}
+
+input {
+  margin: 20px 5px;
+  border: 2px solid blue;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 2px solid red;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 2px;
+  border: none;
+  border: 2px solid black;
+  background-color: white;
+  width: 60px;
+}

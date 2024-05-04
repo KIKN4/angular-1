@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  background-color: #991fbe;
+  color: white;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: #991fbe;
+  color: white;
+}

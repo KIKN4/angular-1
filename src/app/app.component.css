@@ -1,0 +1,35 @@
+.container {
+  padding-top: 50px;
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #991fbe;
+  color: white;
+  border-radius: 5px;
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.country-container {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.country-container img {
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
